@@ -1,38 +1,51 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --text-color: #272142;
+
+  --heading-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font);
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   font-size: 96px;
   line-height: 127px;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 
 .hero {
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 270px 20px;
 }
 
 .hero p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   font-weight: bold;
   font-size: 36px;
-  color: #272142;
+  color: var(--text-color);
   margin: 0;
 }
 
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   font-size: 24px;
   line-height: 36px;
-  color: #272142;
+  color: var(--text-color);
 }
 
 .btn-branding {
-  background-color: #6c63ff;
+  background-color: var(--branding-color);
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   font-size: 18px;
   line-height: 27px;
   padding: 18px 45px;
