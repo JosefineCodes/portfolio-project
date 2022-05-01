@@ -58,8 +58,8 @@ h2 {
   padding: 18px 45px;
 }
 .btn-branding-outline {
-  font-size: 18px;
-  padding: 15px 30px;
+  font-size: 16px;
+  padding: 18px 25px;
   background-color: #fff;
   color: var(--branding-color);
   border-radius: 4px;
@@ -67,5 +67,12 @@ h2 {
 }
 
 .project-image {
-  background-color: var(--secondary-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+.project-description p {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.7);
+  line-height: 30px;
 }
