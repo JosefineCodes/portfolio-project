@@ -102,6 +102,11 @@ p {
 .content {
   padding: 80px 20px;
 }
+
+.content-container {
+  margin-top: 60px;
+}
+
 .content p {
   font-size: 14px;
   margin: 0 0 30px 0;
@@ -189,6 +194,21 @@ footer .contact-box {
   align-items: center;
 }
 
+footer p {
+  font-size: 14px;
+  opacity: 70%;
+}
+
+footer p a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
 .contact-box h4 {
   font-size: 48px;
 }
@@ -197,7 +217,6 @@ footer .contact-box {
   h1 {
     font-size: 58px;
     line-height: 1.2;
-    margin-top: 10px;
   }
   h2 {
     font-size: 48px;
